@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import WishList from './components/WishList';
+import Banner from './components/Banner';
+import TrendingMovies from './components/TrendingMovies';
+import { WishlistProvider } from './context/WishlistContext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <WishlistProvider>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<><Banner /><TrendingMovies /></>} />
+          <Route path="/WishList" element={<WishList />} />
+        </Routes>
+      </Router>
+    </WishlistProvider>
   );
 }
 
