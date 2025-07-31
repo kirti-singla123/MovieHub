@@ -4,7 +4,6 @@
 
 Built with the **TMDB (The Movie Database) API**, the app provides real-time movie data, including posters, ratings, popularity, and genre. It uses React Context API and localStorage to ensure a smooth and persistent user experience.
 
----
 
 ## 🚀 Features
 
@@ -15,7 +14,6 @@ Built with the **TMDB (The Movie Database) API**, the app provides real-time mov
 - 🎨 Responsive and clean UI with Bootstrap
 - 🔧 Global state handled using React Context API
 
----
 
 ## 🛠️ Tech Stack
 
@@ -24,21 +22,18 @@ Built with the **TMDB (The Movie Database) API**, the app provides real-time mov
 - **State Management**: React Context + useState + useEffect
 - **Storage**: Browser localStorage
 
----
 
 ## 📁 Folder Structure
 
 All functional UI components (Header, MovieCard, Navbar, etc.) are inside the `src/components/` folder.  
 Shared global state is managed using `src/context/Context.js`.
 
----
 
 ## 📡 Deployment
 
 - **Live Demo**: [https://popcornplanet.netlify.app](https://popcornplanet.netlify.app)
 - **Deployed on**: Netlify  
 
----
 
 ## 👩‍💻 Author
 
