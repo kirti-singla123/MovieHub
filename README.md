@@ -24,4 +24,4 @@ Built with the TMDB (The Movie Database) API, the app provides real-time movie d
 - **Storage**: Browser localStorage
 
 **👩‍💻 Author:** Kirti Singla
-**🌐 Live Demo:** _(Add your deployed link here)_
+**🌐 Live Demo:** https://popcornplanet.netlify.app/
